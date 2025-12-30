@@ -16,6 +16,10 @@
         <section class="body">
           {{ .Content }}
         </section>
+        {{ if isset .Params "link" }}
+        <div class="link">
+          <a class="readmore" href="{{ .Params.link }}">Read more ⟶</a>
+        </div>{{ end }}
         <div class="post-tags">
           {{ if ne .Type "page" }}
           {{ if gt .Params.tags 0 }}
