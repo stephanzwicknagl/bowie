@@ -1,15 +1,15 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Archie"
+name = "Bowie"
 license = "MIT"
-licenselink = "https://github.com/athul/archie/blob/master/LICENSE"
-description = "Archie is a minimal and clean theme for hugo with a markdown-ish UI."
-homepage = "https://github.com/athul/archie"
+licenselink = "https://github.com/stephanzwicknagl/bowie/blob/master/LICENSE"
+description = "Bowie is a minimal and clean theme optimized for portfolio showcase."
+homepage = "https://github.com/stephanzwicknagl/bowie"
 tags = ["blog","simple","responsive","minimal","tags","personal","clean","shortcodes"]
 features = ["blog", "Clean and minimal", "Responsive", "Syntax highlighting",]
 min_version = "0.41"
 
 [author]
-  name = "Athul Cyriac Ajay"
-  homepage = "https://github.com/athul"
+  name = "Stephan Zwicknagl"
+  homepage = "https://github.com/stephanzwicknagl"
